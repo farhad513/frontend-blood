@@ -1,0 +1,73 @@
+
+.mySlider .swiper-button-prev, .swiper-button-next{
+   display: flex;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  min-width: 45px;
+  justify-content: center;
+  background: #fff;
+  border-radius: 100%;
+  margin-left: 25px !important;
+  margin-right: 25px !important;
+  overflow: hidden !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 18px !important;
+  color: #000;
+  overflow: hidden !important;
+
+}
+
+
+.swiper-pagination-bullet{
+  background-color: #fff !important;
+  /* margin-bottom: -20px !important; */
+  overflow: hidden !important;
+}
+
+
+.mySlider .swiper-slide{
+  overflow:  hidden !important;
+}
+
+/* .myPartner{
+  padding-left: 30px !important;
+  padding-right: 10px !important;
+} */
+/* .myPartner.swiper-slide { */
+  /* width: 100px !important; */
+  /* margin-right: 15px !important; */
+  /* padding: 0px 20px !important; */
+/* } */
+
+
+/* @media  screen and (min-width : 639px) {
+  .myPartner.swiper-slide {
+    width: 100px !important;
+    margin-right: 15px !important;
+   
+  } 
+} */
+
+
+
+.text_center{
+  display: flex !important;
+  align-items: center !important;
+   justify-content: center !important;
+   margin: auto !important;
+}
+
+body {
+  font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+/* Time input icon color override for better visibility */
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(1); /* white → black */
+  cursor: pointer;
+}
+
