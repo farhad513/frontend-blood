@@ -10,7 +10,6 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, FreeMode } from "swiper/modules";
 import { Link } from "react-router-dom";
-import { PARTNERS } from "../utils/local";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import { get_all_hospitals } from "../store/reducers/homeReducer";
