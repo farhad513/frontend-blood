@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { HEROS } from "../../utils/data
+import { HEROS } from "../../utils/data";
 import SEO from "../SEO/SEO";
 
 const Hero = () => {
